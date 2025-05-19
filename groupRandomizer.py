@@ -49,4 +49,6 @@ for i in range (0, len(groups)):
     print(len(groups[i].names))
     sum += len(groups[i].names)
 
-print("There are", len(groups), "groups totalling", sum, "people")
+for i in range(0, len(groups)):
+    print(f"Group {i} is: {groups[i].names}")
+        
