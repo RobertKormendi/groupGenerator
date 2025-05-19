@@ -42,13 +42,6 @@ else:
             else: 
                 break
 
-
-
-sum = 0
-for i in range (0, len(groups)):
-    print(len(groups[i].names))
-    sum += len(groups[i].names)
-
 for i in range(0, len(groups)):
     print(f"Group {i} is: {groups[i].names}")
         
